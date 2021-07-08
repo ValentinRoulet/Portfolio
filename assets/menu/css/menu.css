@@ -1,0 +1,127 @@
+
+
+/* --------------------- IMAGES ------------------------------------------------ */
+
+.bodyMenu{
+	background: black url("../../images/City.jpg") no-repeat ;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size:cover;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    
+	
+}
+
+/* ---------------------------- FIN IMAGES ------------------------------------------------------------*/
+
+
+/* ---------------------------ANIMATIONS ------------------------------------------------------------- */
+
+.fadeout {
+    
+    opacity: 1;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadeout {
+    from {
+        display: none;
+        opacity:1;
+    }
+    to {
+        display: none;
+        opacity:0;
+    }
+}
+@-moz-keyframes fadeout { /* Firefox */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+@-o-keyframes fadeout { /* Opera */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+.Presentation0
+{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 10px;
+    padding: 1%;
+    font-size: medium;
+    border: 1px solid red;
+    
+}
+
+.text_presentation
+{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.bouton
+{
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 6em;
+
+}
+
+.bouton:hover
+{
+    background-color: red;
+    color: black;
+}
+
+.A
+{
+    color: antiquewhite;
+}
+
+.contact:hover
+{
+    color: red;
+}
+.contact
+{
+    color: red;
+}
+
+
+.image_presenation
+{
+    border: 2px solid red;
+}
+
+.ensemble
+{
+    width: 100%;
+}
