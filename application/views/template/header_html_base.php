@@ -10,6 +10,6 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel='icon' href='../../Favicon/gpa.ico'/>
-        <title><?=$titre[0]?></title>
+        <link rel='icon' href='..\..\..\assets\images\saiki.jpg'/>
+        <title>oui</title>
 
