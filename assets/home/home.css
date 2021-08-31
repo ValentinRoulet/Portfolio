@@ -5,6 +5,66 @@
 .oui{
   font-size: 30px;
 }
+.nom
+{
+  margin-left: 15vw;
+  font-size: 40;
+  text-align: left;
+}
+.nom2
+{
+  margin-left: 19vw;
+  margin-top: -5vh;
+  font-size: 30;
+  text-align: left;
+}
+
+.competence
+{
+  margin-left: 40vw;
+  font-size: 30;
+  width: auto;
+  text-align: left;
+}
+.competence2
+{
+  margin-left: 43vw;
+  margin-top: -5vh;
+  font-size: 20;
+  width: auto;
+  text-align: left;
+  
+}
+
+.experience
+{
+  margin-left: 10vw;
+  font-size: 30;
+  text-align: left;
+}
+.experience2
+{
+  margin-left: 13vw;
+  margin-top: -5vh;
+  font-size: 20;
+  text-align: left;
+}
+
+.passion
+{
+  margin-left: 25vw;
+  font-size: 30;
+  text-align: left;
+}
+.passion2
+{
+  margin-left: 27vw;
+  margin-top: -5vh;
+  font-size: 20;
+  text-align: left;
+}
+
+
 
 html, body, .page {
     width: 100%;
@@ -20,6 +80,7 @@ html, body, .page {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    
 
     }
 
@@ -96,17 +157,19 @@ html, body, .page {
     transition-delay: .25s;
   }
   
+  #t1:target #uno,
   #t2:target #dos,
   #t3:target #tres,
   #t4:target #cuatro,
   #t4:target #cinco {
-    transform: scale(1.2) !important;
-    -webkit-transform: scale(1.2) !important;
-    -moz-transform: scale(1.2) !important;
-    -o-transform: scale(1.2) !important;
+    transform: translateX(-9%);
+    -webkit-transform: translateX(-9%);
+    -moz-transform: translateX(-9%);
+    -o-transform: translateX(-9%);
+    
   }
   
-  ul {
+  .listMenu {
     position: fixed;
     z-index: 1;
     top: 0;
@@ -172,11 +235,11 @@ html, body, .page {
     bottom: 0;
     right: 10%;
     left: 0;
-    width: 270px;
+    
     height: 170px;
     margin: auto;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 1.3;
     transform: translateX(360%);
     -webkit-transform: translateX(360%);

@@ -5,65 +5,68 @@
 </head>
 
 <body>
-    <!--
-    <div id="navbar">
-        <a id="logo">Valentin Pouletos</a>
-    </div>
--->
+
 
 
     <div class="ct" id="t1">
         <div class="ct" id="t2">
             <div class="ct" id="t3">
-                <ul id="menu">
+                <ul class="listMenu" id="menu">
                     <!-- Liste du menu -->
                     <a href="#t1">
-                        <li class="icon fa fa-bolt" id="uno"></li>
+                        <li class="icon fa fa-home" id="uno"></li>
                     </a>
                     <a href="#t2">
                         <li class="icon fa fa-keyboard-o" id="dos"></li>
                     </a>
                     <a href="#t3">
-                        <li class="icon fa fa-rocket" id="tres"></li>
+                        <i class="icon fa fa-envelope" id="tres"></i>
                     </a>
-                    <a href="https://github.com/ValentinRoulet/">
-                        <i class="icon fa fa-github" id="quatro"></i>
+                    <a href="https://github.com/ValentinRoulet/" target="_blank">
+                        <i class="icon fa fa-github" id="cuatro"></i>
                     </a>
                 </ul>
 
                 <!-- Page Home -->
                 <div class="page" id="p1">
-                    <section class="icon fa fa-bolt">
-                        <!--
-                        <span class="title">Bolt</span>
-                        <span class="hint">Like this
-                            pen to see the magic!...<br> Just kidding, it won't happen anything but I'll be
-                            really happy If you do so.
-                        </span>
-                        -->
-                        <div class="oui">
+                    <section class="icon fa fa-home">
+                        <div class="nom">
                             <p>Valentin ROULET</p>
                         </div>
-                        <div class="oui">
+                        <div class="nom2">
                             <p>Developpeur</p>
                         </div>
-                        <div class="oui">
+                        <div class="competence">
                             <p>Mes compétences :</p>
                         </div>
-                        <div class="oui">
-                            <p>...</p>
+                        <div class="competence2">
+                            <ul class="ul">
+                                <li>Front-End | Back-end </li>
+                                <li>c#,java,Python,html,php (framework : CodeIgniter),css,Mysql</li>
+                                <li>Visual Studio, XAMPP, Laragon, GitHub Desktop</li>
+                                <ul>
                         </div>
-                        <div class="oui">
+                        <div class="experience">
                             <p>Mes expériences :</p>
                         </div>
-                        <div class="oui">
-                            <p>...</p>
+                        <div class="experience2">
+                            <ul>
+                                <li> Lycée de la venise verte - Niort - BTS SIO option Slam - 2019/2021</li>
+                                <li>Stage 1er année - Coulons - Developpement d'un site web - 4 semaines</br></li>
+                                <li>Stage 2eme anéne - Télétravail - Developpement de fonctionnalitées d'un site web - 7
+                                    semaines</li>
+                            </ul>
                         </div>
-                        <div class="oui">
+                        <div class="passion">
                             <p>Mes passions :</p>
                         </div>
-                        <div class="oui">
-                            <p>...</p>
+                        <div class="passion2">
+                            <ul>
+                                <li>Culture Japonaise</li>
+                                <li>Volley-Ball</li>
+                                <li>Jeux-vidéos</li>
+                                <li>Lire</li>
+                            </ul>
                         </div>
                     </section>
                 </div>
@@ -86,11 +89,9 @@
 
                 <!-- Page contact -->
                 <div class="page" id="p3">
-                    <section class="icon fa fa-rocket"><span class="title">Rocket</span><span class="hint">Like this
-                            pen
-                            to see the magic!...<br> Just kidding, it won't happen anything but I'll be really happy
-                            If
-                            you do so.</span></section>
+                    <section class="icon fa fa-envelope">
+
+                    </section>
                 </div>
 
             </div>
