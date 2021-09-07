@@ -66,6 +66,10 @@ body {
     visibility: collapse !important;
 }
 </style>
+
+<meta charset="UTF-8">
+<link rel='icon' href='../../../assets/images/livres.png' />
+<title>PortFolio Roulet Valentin</title>
 </head>
 
 <body>

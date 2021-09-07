@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
 </head>
 
 <body>
@@ -11,8 +12,10 @@
     <div class="ct" id="t1">
         <div class="ct" id="t2">
             <div class="ct" id="t3">
+
+
+                <!-- Liste du menu (navbar) -->
                 <ul class="listMenu" id="menu">
-                    <!-- Liste du menu -->
                     <a href="#t1">
                         <li class="icon fa fa-home" id="uno"></li>
                     </a>
@@ -73,24 +76,109 @@
 
                 <!-- Page Projet -->
                 <div class="page" id="p2">
-                    <section class="icon fa fa-keyboard-o"><span class="title">Projet</span></section>
-                    <div class="image-wrapper">
-                        <div class="media">
-                            <div class="overlay"></div>
-                            <img src="https://i.postimg.cc/rw295qk0/pic-10.png" alt="">
-                            <div class="image-details">
-                                <p>Image 1</p>
+                    <section class="icon fa fa-keyboard-o">
+                        <span class="title">Projets</span>
+                        <div class="ConteneurVignette">
+                            <!-- Une vignette -->
+                            <div class="image-wrapper">
+                                <a href="https://rouletportfolio.000webhostapp.com/" target="_blank" class="none">
+                                    <div class="media">
+                                        <div class="overlay"></div>
+                                        <img src="../../../assets/images/AncienPortfolio.PNG" alt="">
+                                        <div class="image-details">
+                                            <p>Portfolio qui a été utilisé comme support pour l'examen du BTS</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
+                            <!-- Une vignette -->
+                            <div class="image-wrapper">
+                                <a href="https://lvv-projet-php.000webhostapp.com/" class="none" target="_blank">
+                                    <div class="media">
+                                        <div class="overlay"></div>
+                                        <img src="../../../assets/images/ProjetPhp.PNG" alt="">
+                                        <div class="image-details">
+                                            <p class="none">
+                                                Site créé pour une épreuve du BTS. </br>
+                                                <a href="https://github.com/ValentinRoulet/LVV-PROJECT-PHP"
+                                                    target="_blank" class="test">
+                                                    GitHub
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Une vignette -->
+                            <div class="image-wrapper">
+                                <a href="https://www.si-management.fr/gpa-informatique/" target="_blank" class="none">
+                                    <div class="media">
+                                        <div class="overlay"></div>
+                                        <img src="../../../assets/images/GPAinformatique.PNG" alt="">
+                                        <div class="image-details">
+                                            <p>
+                                                Developpement de divers modules pour l'entreprise GPAinformatique. </br>
+                                                Effectués lors de mon stage de deuxième année.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Une vignette -->
+                            <div class="image-wrapper">
+                                <!-- <a href="" target="_blank" class="none"> -->
+                                <div class="media">
+                                    <div class="overlay"></div>
+                                    <img src="../../../assets/images/minecraft.png" alt="">
+                                    <div class="image-details">
+                                        <p>
+                                            Modding du jeu vidéo Minecraft</br>
+                                            <a href="https://github.com/ValentinRoulet/Mod-OUI-Minecraft-1.16.5"
+                                                target="_blank">GitHub</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- </a> -->
+                            </div>
+                            <!-- Une vignette -->
+                            <div class="image-wrapper">
+                                <a href="../../../assets/voiture/index.html" target="_blank" class="none">
+                                    <div class="media">
+                                        <div class="overlay"></div>
+                                        <img src="../../../assets/images/voiture.PNG" alt="">
+                                        <div class="image-details">
+                                            <p>
+                                                Developpement d'une voiture sur Unity</br>
+                                                <a href="https://github.com/ValentinRoulet/Mod-OUI-Minecraft-1.16.5"
+                                                    target="_blank">GitHub</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+
                         </div>
-                    </div>
+                    </section>
 
                 </div>
-
 
                 <!-- Page contact -->
                 <div class="page" id="p3">
                     <section class="icon fa fa-envelope">
+                        <div class="container">
+                            <h2>Contact</h2>
+                            <p style="font-size: 30px;">
+                                Vous vouvez me contacter à cette adresse mail : <a style="color:black"
+                                    href="mailto:roulet.valentin1@gmail.com" title="Contactez moi"
+                                    class="contact">roulet.valentin1@gmail.com</a>
+                            </p>
+                            <p style="font-size: 30px;">
+                                Linkedin : <a style="color: black;"
+                                    href="https://www.linkedin.com/in/roulet-valentin/">www.linkedin.com/in/roulet-valentin/</a>
+                            </p>
 
+                        </div>
                     </section>
                 </div>
 

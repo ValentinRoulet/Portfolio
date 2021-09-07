@@ -3,7 +3,7 @@
 }
 
 .oui{
-  font-size: 30px;
+  -webkit-text-stroke: 2px black;
 }
 .nom
 {
@@ -100,9 +100,9 @@ html, body, .page {
     left: 200%;
   }
   
-  #p1 { background: url("../images/City.jpg"); }
+  #p1 { background:  rgb(41, 2, 66) /*url("../images/fond.jpeg")*/; }
   #p2 { background: tomato; }
-  #p3 { background: gold; }
+  #p3 { background: rgb(224, 191, 0); }
   #p4 { background: deeppink; }
   #p5 { background: rebeccapurple; }
   
@@ -121,7 +121,7 @@ html, body, .page {
   #t3:target #p1,
   #t4:target #p1,
   #t5:target #p1{
-    background: url("../images/City.jpg");
+    background:black  /*url("../images/City.jpg")*/;
   }
   
   #t2:target #p1, 
@@ -135,7 +135,7 @@ html, body, .page {
     color: rgb(255, 255, 255);
     font-size: 32px;
     display: block;
-    margin-top: 10vh;
+    /*margin-top: 10vh;*/
   }
   
   ul .icon:hover {
@@ -236,8 +236,8 @@ html, body, .page {
     right: 10%;
     left: 0;
     
-    height: 170px;
-    margin: auto;
+    height: 0vh;
+    /*margin: auto;*/
     text-align: center;
     font-size: 60px;
     line-height: 1.3;
@@ -254,6 +254,16 @@ html, body, .page {
   .page#p1 .icon {
     height: 220px;
     margin-top: 10vh;
+  }
+
+  .page#p2 .icon {
+    
+    margin-top: 5vh;
+  }
+
+  .page#p3 .icon {
+    
+    margin-top: 5vh;
   }
   
   .page#p1 .icon {
@@ -323,18 +333,27 @@ body {
 
 /* thumbnail */
 
+.ConteneurVignette
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
 
 .image-wrapper {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 60%;
+    justify-content: center;*/
+    width: auto;
     margin: auto;
     margin-bottom: 50px;
   }
   
   .media {
-    width: 30%;
+    width: 20vw;
     height: 30%;
     display: flex;
     justify-content: center;
@@ -379,7 +398,7 @@ body {
     text-align: center;
     color: white;
     font-size: 20px;
-    z-index: 4;
+    z-index: 5;
     position: absolute;
     top: 100%;
     opacity: 0;
@@ -387,6 +406,29 @@ body {
   }
   
   .media:hover .image-details {
-    top: 40%;
+    top: 10%;
     opacity: 1;
+    z-index: 5;
+  }
+
+  .test
+  {
+    z-index: 6;
+  }
+
+  .none
+  {
+    text-decoration: none;
+    color: #fff;
+  }
+  .none:visited
+  {
+    text-decoration: none;
+    color: #fff;
+    
+  }
+  .none:active
+  {
+    color: #fff;
+    text-decoration: none;
   }
