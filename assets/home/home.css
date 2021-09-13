@@ -5,11 +5,35 @@
 .oui{
   -webkit-text-stroke: 2px black;
 }
+
+@keyframes AnimNom {
+  from {
+    margin-left: 110%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 15vw;
+    width: 100%;
+  }
+}
 .nom
 {
   margin-left: 15vw;
   font-size: 40;
   text-align: left;
+  animation: 1s both running AnimNom;
+}
+@keyframes AnimNom2 {
+  from {
+    margin-left: 110%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 19vw;
+    width: 100%;
+  }
 }
 .nom2
 {
@@ -17,53 +41,168 @@
   margin-top: -5vh;
   font-size: 30;
   text-align: left;
+  animation: 1s both running AnimNom2;
 }
+@keyframes AnimCompetence {
+  from {
+    margin-left: -15%;
+    width: 300%;
+  }
 
+  to {
+    margin-left: 40vw;
+    width: 100%;
+  }
+}
 .competence
 {
   margin-left: 40vw;
   font-size: 30;
   width: auto;
   text-align: left;
+  animation: 1s both running AnimCompetence;
+}
+@keyframes AnimCompetence2 {
+  from {
+    margin-left: -15%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 43vw;
+    width: 100%;
+  }
 }
 .competence2
 {
   margin-left: 43vw;
-  margin-top: -5vh;
   font-size: 20;
   width: auto;
   text-align: left;
+  animation: 1s both running AnimCompetence2;
   
 }
+@keyframes AnimExperience {
+  from {
+    margin-left: 110%;
+    width: 300%;
+  }
 
+  to {
+    margin-left: 10vw;
+    width: 100%;
+  }
+}
 .experience
 {
   margin-left: 10vw;
   font-size: 30;
   text-align: left;
+  animation: 1s both running AnimExperience;
+}
+@keyframes AnimExperience2 {
+  from {
+    margin-left: 110%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 13vw;
+    width: 100%;
+  }
 }
 .experience2
 {
   margin-left: 13vw;
-  margin-top: -5vh;
   font-size: 20;
   text-align: left;
+  animation: 1s both running AnimExperience2;
 }
+@keyframes AnimPassion {
+  from {
+    margin-left: -15%;
+    width: 300%;
+  }
 
+  to {
+    margin-left: 25vw;
+    width: 100%;
+  }
+}
 .passion
 {
   margin-left: 25vw;
   font-size: 30;
   text-align: left;
+  animation: 1s both running AnimPassion;
+}
+@keyframes AnimPassion2 {
+  from {
+    margin-left: -15%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 27vw;
+    width: 100%;
+  }
 }
 .passion2
 {
   margin-left: 27vw;
-  margin-top: -5vh;
   font-size: 20;
   text-align: left;
+  animation: 1s both running AnimPassion2;
 }
 
+
+@media screen and (max-width: 1600px)
+{
+  .competence
+  {
+    margin-left: 40vw;
+    font-size: 30;
+    width: auto;
+    text-align: left;
+  }
+  .competence2
+  {
+    margin-left: 43vw;
+    margin-top: -5vh;
+    font-size: 20;
+    width: auto;
+    text-align: left;
+    
+  }
+  
+  .experience
+  {
+    margin-left: 10vw;
+    font-size: 30;
+    text-align: left;
+  }
+  .experience2
+  {
+    margin-left: 13vw;
+    margin-top: -5vh;
+    font-size: 20;
+    text-align: left;
+  }
+  
+  .passion
+  {
+    margin-left: 25vw;
+    font-size: 30;
+    text-align: left;
+  }
+  .passion2
+  {
+    margin-left: 27vw;
+    margin-top: -5vh;
+    font-size: 20;
+    text-align: left;
+  }
+}
 
 
 html, body, .page {
@@ -102,7 +241,7 @@ html, body, .page {
   
   #p1 { background:  rgb(41, 2, 66) /*url("../images/fond.jpeg")*/; }
   #p2 { background: tomato; }
-  #p3 { background: rgb(224, 191, 0); }
+  #p3 { background: rgb(255, 217, 0); }
   #p4 { background: deeppink; }
   #p5 { background: rebeccapurple; }
   
@@ -169,6 +308,16 @@ html, body, .page {
     
   }
   
+  @keyframes AnimMenu {
+    from {
+      height: 300%;
+    }
+  
+    to {
+
+      height: 280px;
+    }
+  }
   .listMenu {
     position: fixed;
     z-index: 1;
@@ -180,7 +329,8 @@ html, body, .page {
     width: 10%;
     padding: 0;
     text-align: center;
-   }
+    animation: 1s both running AnimMenu;
+  }
   
   #menu .icon {
     margin: 30px 0;
@@ -284,53 +434,6 @@ html, body, .page {
   
 
 
-
-
-/* Logo */
-
-/*
-
-*{
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: lato;
-}
-
-#navbar {
-    background: #000000;
-    padding: 200px 500px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    transition: 0.4s;
-}
-
-#navbar a {
-    float: left;
-    padding: 12px;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-}
-
-#navbar #logo {
-    font-size: 35px;
-    font-weight: bold;
-}
-
-#navbar-right {
-    float: right;
-}
-
-*/
-
-
-
-
-
 /* thumbnail */
 
 .ConteneurVignette
@@ -411,11 +514,6 @@ body {
     z-index: 5;
   }
 
-  .test
-  {
-    z-index: 6;
-  }
-
   .none
   {
     text-decoration: none;
@@ -432,3 +530,31 @@ body {
     color: #fff;
     text-decoration: none;
   }
+  
+  @keyframes AnimIcon {
+    from {
+    margin-top: -100vh;
+    }
+  
+    to {
+    margin-top: 10vh;
+    }
+  }
+  .AnimIcon2
+  {
+    animation: 1s both running AnimIcon;
+  }
+
+  .bouton
+{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6em;
+
+}
+
+.bouton:hover
+{
+    background-color: black;
+    color: yellow;
+}

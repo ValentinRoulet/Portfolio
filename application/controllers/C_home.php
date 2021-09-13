@@ -12,8 +12,6 @@ class c_home extends C_utilitaire
         date_default_timezone_set('Europe/Paris');
         setlocale(LC_TIME, 'fr', 'fr_FR', 'fr_FR.ISO8859-1');
         $this->dir_reload = 'home/c_home';
-        $this->load->library('email');
-        $this->load->library('form_validation');
     }
 
     function index()

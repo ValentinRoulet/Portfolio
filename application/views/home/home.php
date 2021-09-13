@@ -32,8 +32,8 @@
 
                 <!-- Page Home -->
                 <div class="page" id="p1">
-                    <section class="icon fa fa-home">
-                        <div class="nom">
+                    <section class="icon fa fa-home AnimIcon2">
+                        <div class="nom test">
                             <p>Valentin ROULET</p>
                         </div>
                         <div class="nom2">
@@ -142,14 +142,14 @@
                             </div>
                             <!-- Une vignette -->
                             <div class="image-wrapper">
-                                <a href="../../../assets/voiture/index.html" target="_blank" class="none">
+                                <a href="https://voitureunity.000webhostapp.com/" target="_blank" class="none">
                                     <div class="media">
                                         <div class="overlay"></div>
                                         <img src="../../../assets/images/voiture.PNG" alt="">
                                         <div class="image-details">
                                             <p>
                                                 Developpement d'une voiture sur Unity</br>
-                                                <a href="https://github.com/ValentinRoulet/Mod-OUI-Minecraft-1.16.5"
+                                                <a href="https://github.com/ValentinRoulet/Voiture"
                                                     target="_blank">GitHub</a>
                                             </p>
                                         </div>
@@ -177,7 +177,9 @@
                                 Linkedin : <a style="color: black;"
                                     href="https://www.linkedin.com/in/roulet-valentin/">www.linkedin.com/in/roulet-valentin/</a>
                             </p>
-
+                            <a href="../../../assets/home/CV.pdf" target="_blank" class="A">
+                                <button class="bouton" onclick="oui()">Voir mon CV</button>
+                            </a>
                         </div>
                     </section>
                 </div>
